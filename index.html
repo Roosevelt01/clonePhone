@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Apple Products</title>
+</head>
+<body>
+    <!-- Menú del navehador -->
+    <nav>
+        <div class="enlaces">
+            <a href=""><img src="logo.png" alt=""></a>
+            <a class="clic" href="#">!Phone</a>
+            <a class="clic" href="#">!Pad</a>
+            <a class="clic" href="#">Watch</a>
+            <a class="clic" href="#">Airpods</a>
+            <a class="clic" href="#">Music/TV</a>
+            <a class="clic" href="#">!Mac</a>
+            <a class="clic" href="#">Dónde comprar</a>
+            <a class="search" href=""><span class="bi bi-search"></span></a>
+            <a onclick="openNav()" class="menu" href="#"><i class="bi bi-plus-lg"></i></a>
+        </div>
+        
+        
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" class="close" href="#"><i class="bi bi-x-lg"></i></a>
+            <div class="overlay-content">
+                <a href="#">!Phone</a>
+                <a href="#">!Pad</a>
+                <a href="#">Watch</a>
+                <a href="#">Airpods</a>
+                <a href="#">Music/TV</a>
+                <a href="#">!Mac</a>
+                <a href="#">Dónde comprar</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="iphone">
+        <div class="grid">
+            <div class="text-container span12">
+                <h2>iPhone 12 iPhone 12 mini</h2>
+                <h1>SUPER. MEGA .RÁPIDO</h1>
+                <h3>Muy pronto disponible en morado.</h3>
+            </div>
+
+            <div class="img-container span12">
+                <img src="image1.jpg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <script src="nav.js"></script>
+</body>
+</html>
